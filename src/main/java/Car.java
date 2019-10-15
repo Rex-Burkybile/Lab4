@@ -16,14 +16,14 @@ public class Car {
         
         
         for(int i = 1; i <= 5;i++){
-            int a = CarDemonstrations.accelerate();
+            int a = obj1.accelerate();
             
             System.out.println(obj1.getSpeed());
         }
         
         System.out.println("The car is decelerating to: ");
         for(int j = 1; j <= 5;j++){
-            int b = CarDemonstrations.brake();
+            int b = obj1.brake();
             
             System.out.println(obj1.getSpeed());
         }
